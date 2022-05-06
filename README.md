@@ -1,5 +1,5 @@
 # CSE 340 – SPRING 2022
-  - Name: Camila Romero
+  - Name: Camila A. Romero
   - email: Camilaar@byui.edu
 
   # PHPMotors
