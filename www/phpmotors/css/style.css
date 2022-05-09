@@ -1,196 +1,196 @@
 header img{
-    width: 25%;
+  width: 25%;
 }
 nav {
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .navigation {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    background-color: #3a3a3a;
-  }
-  
-  .navigation li:first-child {
-    display: flex;
-  }
-  
-  .navigation li {
-    display: none;
-  }
-  
-  .navigation a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .navigation a:hover {
-    background-color: #4c96d7;
-    color: #3a3a3a;
-  }
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  background-color: #3a3a3a;
+}
+
+.navigation li:first-child {
+  display: flex;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.navigation a:hover {
+  background-color: #4c96d7;
+  color: #3a3a3a;
+}
 header a{
-    color: #3a3a3a;
-    text-decoration: none;
-    float: right;
-    padding: 20px;
+  color: #3a3a3a;
+  text-decoration: none;
+  float: right;
+  padding: 20px;
 }
 .main{
-    background-image: url('/phpmotors/images/delorean.jpg');
-    height: 450px;
-    background-repeat: no-repeat;
-    background-position: 0px 100px;
-    background-size: 100%;
-    position: relative;
+  background-image: url('/phpmotors/images/delorean.jpg');
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: 0px 100px;
+  background-size: 100%;
+  position: relative;
 }
 .main h1{
-    color: #3a3a3a;
-    font-size: 22px;
+  color: #3a3a3a;
+  font-size: 22px;
 }
 .main p{
-    margin: 0 0 0 1rem;
-    color: #00008b
+  margin: 0 0 0 1rem;
+  color: #00008b
 }
 .main button{
-    background-color: #a6cbeb;
-    position: absolute;
-    left: 20px;
-    bottom: 14px;
-    color: #3a3a3a;
-    height: 2.5rem;
-    border-radius: 10px;
+  background-color: #a6cbeb;
+  position: absolute;
+  left: 20px;
+  bottom: 14px;
+  color: #3a3a3a;
+  height: 2.5rem;
+  border-radius: 10px;
 }
 
 ul{
-    margin: 0;
-    padding: 10px;
+  margin: 0;
+  padding: 10px;
 }
 body{
-    width: 90%;
-    border: solid;
-    border-color: #4c96d7;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ffffff;
+  width: 90%;
+  border: solid;
+  border-color: #4c96d7;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
 }
 footer{
-    padding: 10px;
+  padding: 10px;
 }
 footer p{
-    align-self: center;
+  align-self: center;
 }
 hr{
-    border-width: 5px;
-    background-color: #3a3a3a;
+  border-width: 5px;
+  background-color: #3a3a3a;
 }
 .delorean{
-    display: block;
+  display: block;
 }
 .upgrade{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-end;
 }
 .upgrade h2{
-    display: block;
-    width: 100%;
-    margin: 20px;
+  display: block;
+  width: 100%;
+  margin: 20px;
 }
 .upgrade div{
-    background-color: #4c96d7;
-    border: #4c96d7 solid 3px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-   
+  background-color: #4c96d7;
+  border: #4c96d7 solid 3px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+ 
 }
 .upgrade figcaption{
-    text-align: center;
+  text-align: center;
 }
 .review{
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 footer p {
-    text-align: center;
+  text-align: center;
 }
 
 
 @media screen and (min-width: 32.5em) {
-    .main{
-        background-position: 0px 150px;
-        height: 550px;
+  .main{
+      background-position: 0px 150px;
+      height: 550px;
+  }
+  .main button{
+      bottom: 683px;
+  }
+  .navigation {
+      display: flex;
     }
-    .main button{
-        bottom: 683px;
+  
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
     }
-    .navigation {
-        display: flex;
-      }
-    
-      .navigation li {
-        display: block;
-        flex: 1 1 100%;
-      }
-    
-      .navigation a {
-        text-align: center;
-      }
-    
-      .navigation li:first-child {
-        display: none;
-      }
-    
+  
+    .navigation a {
+      text-align: center;
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+  
 }
 
 
 
 @media screen and (min-width: 69em) {
-    html{
-        background-image: url(/phpmotors/images/site/small_check.jpg);
+  html{
+      background-image: url(/phpmotors/images/site/small_check.jpg);
+  }
+  nav li a{
+      font-size: 26px;
+  }
+  nav li{
+      margin-right: 5rem;
+  }
+  .main{
+      height: 50vw;
+      background-position: 0px 50px;
+  }
+  .main button{
+      margin: 2em 0 0 1em;
+      position: static;
+  }
+  .navigation {
+      display: flex;
     }
-    nav li a{
-        font-size: 26px;
+  
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
     }
-    nav li{
-        margin-right: 5rem;
+  
+    .navigation a {
+      text-align: center;
     }
-    .main{
-        height: 50vw;
-        background-position: 0px 50px;
+  
+    .navigation li:first-child {
+      display: none;
     }
-    .main button{
-        margin: 2em 0 0 1em;
-        position: static;
-    }
-    .navigation {
-        display: flex;
-      }
-    
-      .navigation li {
-        display: block;
-        flex: 1 1 100%;
-      }
-    
-      .navigation a {
-        text-align: center;
-      }
-    
-      .navigation li:first-child {
-        display: none;
-      }
-      .delorean {
-          display: flex;
-          flex-direction: row;
-      }
-      .upgrade{
+    .delorean {
         display: flex;
         flex-direction: row;
-      }
     }
+    .upgrade{
+      display: flex;
+      flex-direction: row;
+    }
+  }
