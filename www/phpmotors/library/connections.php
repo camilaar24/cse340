@@ -18,9 +18,9 @@ $server = 'localhost';
         return $link;
     
 } catch(PDOException $e){
-    //echo "It didn't worked, error: " . $e->getMessage();
-    header('Location: /phpmotors/view/500.php');
-  exit;
+  //echo "It didn't worked, error: " . $e->getMessage();
+  header('Location: /phpmotors/view/500.php');
+exit;
 }
 }
 
