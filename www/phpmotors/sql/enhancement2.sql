@@ -22,7 +22,7 @@ WHERE carclassification.classificationName= "SUV";
 
 /*Delete the Jeep Wrangler from the database.*/
 DELETE FROM inventory WHERE inventory.invMake= "Jeep" AND inventory.invModel= "Wrangler";
-
+DELETE FROM inventory WHERE inventory.invMake= "Ford" AND inventory.invModel= "Model T";
 
 /*Update all records in the Inventory table to add "/phpmotors" to the beginning of the file path in the invImage and invThumbnail columns using a single query. */
 UPDATE inventory SET invImage=CONCAT("/phpmotors", invImage), invThumbnail=CONCAT("/phpmotors", invThumbnail);
