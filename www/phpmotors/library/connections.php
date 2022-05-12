@@ -2,7 +2,6 @@
 /*
 *Proxy connection to the phpmotors database
 */
-
 function phpmotorsConnect(){
 $server = 'localhost';
  $dbname= 'phpmotors';
@@ -13,15 +12,19 @@ $server = 'localhost';
 
  // Create the actual connection object and assign it to a variable
  try {
-  $link = new PDO($dsn, $username, $password, $options);
-  //if(is_object($link)){
-  //echo 'It worked!';
-  return $link;   
+    $link = new PDO($dsn, $username, $password, $options);
+    //if(is_object($link)){
+        //echo 'It worked!';
+        return $link;
+    
 } catch(PDOException $e){
-  //echo "It didn't worked, error: " . $e->getMessage();
-  header('Location: /phpmotors/view/500.php');
+    //echo "It didn't worked, error: " . $e->getMessage();
+    header('Location: /phpmotors/view/500.php');
   exit;
 }
 }
 
-phpmotorsConnect();
+
+
+
+7PXNbV7AF@xSCF9Z

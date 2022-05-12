@@ -1,5 +1,16 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="phpmotors" content="CSE 340">
+    <meta name="author" content="Camila Romero">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href= "/phpmotors/css/style.css" />
+    <title>Home | PHP Motors </title>
+</head>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php';
+echo $navList;?>
 <div class="main">
     <h1>Welcome to PHP Motors</h1>
     <p>DMC Delorean</p>
