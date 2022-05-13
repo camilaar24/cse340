@@ -9,8 +9,7 @@
     <title>Home | PHP Motors </title>
 </head>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php';
-echo $navList;?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
 <div class="main">
     <h1>Welcome to PHP Motors</h1>
     <p>DMC Delorean</p>

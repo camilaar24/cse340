@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="phpmotors" content="CSE 340">
-    <meta name="author" content="Camila Romero">
+    <meta name="author" content="Laura Salcedo Maso">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href= "/phpmotors/css/style.css" />
     <title>Account registration | PHP Motors </title>
 </head>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php';
-echo $navList;?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
         <div class="registration">
             <h1>Register</h1>
             <label for="firstname">Email</label><br>

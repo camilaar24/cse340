@@ -9,8 +9,7 @@
     <title> Login | PHP Motors </title>
 </head>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php';
-echo $navList;?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
         <div class="login">
             <h1>Sign In</h1>
             <label for="email">Email</label><br>
