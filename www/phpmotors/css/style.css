@@ -194,3 +194,32 @@ footer p {
       flex-direction: row;
     }
   }
+
+  /*Login and register page*/
+
+  .submit {
+    background-color: #4c96d7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.registration, .login{
+  margin: 20px;
+}
+.login label,
+.registration label {
+    font-weight: 600;
+}
+
+.showPassword {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.registration p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
