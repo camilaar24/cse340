@@ -9,7 +9,7 @@
     <title>Account registration | PHP Motors </title>
 </head>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
-<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php';
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php';
 echo $navList;?>
         <div class="registration">
             <h1>Register</h1>
