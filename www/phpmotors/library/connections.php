@@ -23,8 +23,3 @@ $server = 'localhost';
   exit;
 }
 }
-
-
-
-
-7PXNbV7AF@xSCF9Z
