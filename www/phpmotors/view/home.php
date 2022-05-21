@@ -20,42 +20,28 @@
 </div>
 <div class="delorean">    
     <div class="upgrade">
-        <h2>Delorean Upgrades</h2>
-        <figure>
-            <div>
-                <img src="/phpmotors/images/upgrades/flux-cap.png" alt="Flux_Capacitor">
-            </div>
-            <figcaption><a> Flux Capacitor</a></figcaption>
-        </figure>
-        <figure>
-            <div>
-                <img src="/phpmotors/images/upgrades/flame.jpg" alt="Flame_Decals">
-            </div>
-            <figcaption><a> Flame Decals</a></figcaption>
-        </figure>
-        <figure>
-            <div>
-                <img src="/phpmotors/images/upgrades/bumper_sticker.jpg" alt="Bumper_Stikers">
-            </div>
-            <figcaption><a> Bumper Stickers</a></figcaption>
-        </figure>
-        <figure>
-            <div>
-                <img src="/phpmotors/images/upgrades/hub-cap.jpg" alt="Hub_Caps">
-            </div>
-            <figcaption><a> Hub Caps</a></figcaption>
-        </figure>
+        <h2 id="upgrade_h2">Delorean Upgrades</h2>
+                    <ul id="upgrade">
+                        <li id="flux_capacitor" class="upgradePic"><img alt="flux capacitor" src="/phpmotors/images/upgrades/flux-cap.png"></li>
+                        <li id="fluxcapacitor_label" class="upgradeLabel"><a href="" class="upgradeLabel">Flux Capacitor</a></li>
+                        <li id="flame_decals" class="upgradePic"><img alt="flame decals" src="/phpmotors/images/upgrades/flame.jpg"></li>
+                        <li id="flamedecals_label" class="upgradeLabel"><a href="" class="upgradeLabel">Flame Decals</a></li>
+                        <li id="bumper_stikers" class="upgradePic"><img alt="bumper stickers" src="/phpmotors/images/upgrades/bumper_sticker.jpg"></li>
+                        <li id="bumperstikers_label" class="upgradeLabel"><a href="" class="upgradeLabel">Bumper Stickers</a></li>
+                        <li id="hub_caps" class="upgradePic"><img alt="hub caps" src="/phpmotors/images/upgrades/hub-cap.jpg"></li>
+                        <li id="hubcaps_label" class="upgradeLabel"><a href="" class="upgradeLabel">Hub Caps</a></li>
+                    </ul>
     </div>
-    <div class="review"> 
-        <h2> DMC Delorean Reviews </h2>
-        <ul>
-            <li>"So fast its almost like traveling in time." (4/5)</li>
-            <li>"Coolest ride on the road." (4/5)</li>
-            <li>"I'm feeling Marty Mcfly!" (5/5)</li>
-            <li>"Themost futuristic ride of our day."(4.5/5)</li>
-            <li>"80's living and I live it!"(5/5)</li>
-        </ul>
-    </div>
+    <div id="review">
+                    <h2 id="review_h2">DMC Delorean Reviews</h2>
+                    <ul id="review_info">
+                        <li><p>"So fast its almost like traveling in time." [4/5]</p></li>
+                        <li><p>"Coolest ride on the road." [4/5]</p></li>
+                        <li><p>"I'm feeling Marty McFly!" [5/5]</p></li>
+                        <li><p>"The most futuristic ride of our day." [4.5/5]</p></li>
+                        <li><p>"80's livin and I love it!" [5/5]</p></li>
+                    </ul>
+                </div>
 </div>   
 
 <hr />

@@ -6,21 +6,33 @@
     <meta name="author" content="Camila Romero">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href= "/phpmotors/css/style.css" />
-    <title> Login | PHP Motors </title>
-</head>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php';
-echo $navList;?>
-        <div class="login">
-            <h1>Sign In</h1>
-            <label for="email">Email</label><br>
-            <input type="text" name="user_email" id="email"><br>
-            <label for="password">Password</label><br>
-            <input type="text" name="user_password" id="password"><br>
-            <button class="submit">Sign in</button><br>
-            <a href="?action=register">Not a member yet?</a>
-        </div>
+    <title>Account Login | PHP Motors </title>
+    </head>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
+    <body>
+        <div id="body">
+                <h1>Login</h1>
+                <?php 
+                    if (isset($message)) {
+                        echo $message;
+                    }
+                ?>
+                <form action="/phpmotors/accounts/index.php?action=login" id="loginForm">
+                    <label for="clientEmail">Email Address: </label>
+                    <input type="text" name="clientEmail" id="clientEmail"><br>
+                    <label for="clientPassword">Password: </label>
+                    <input type="password" name="clientPassword" id="clientPassword"><br>
+                    <button class="submit">Sign in</button><br>
+                    <a href='../accounts/?action=register-page'>Not a member yet?</a></p>
+                </form>
 
-    <hr />
+            </main>
+            <hr />
+            <footer>
 
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/footer.php'; ?>
+</footer>
+        </div>
+    </body>
+</html>

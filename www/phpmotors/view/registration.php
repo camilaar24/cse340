@@ -6,17 +6,12 @@
         <title>Home | PHP Motors</title>    
         <link rel="stylesheet" type="text/css" href= "/phpmotors/css/style.css" />
     </head>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
     <body>
         <div id="body">
-            <header>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
-</header>
             
             <main>
-                <nav>
-<!-- <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php';?> -->
-<?php echo $navList;?>
-</nav>
                 <h1>Register</h1>
 
                 <?php 
