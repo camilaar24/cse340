@@ -1,11 +1,10 @@
-<ul class="navigation" id="navigation-items">
-    <li><a href="/used" aria-label="Used Cars">Used</a></li>
-    <li><a href="../accounts/index.php" aria-label="Home">Home</a></li>
-    <li><a href="/classic" aria-label="Classic Cars">Classic</a></li>
-    <li><a href="/sports" aria-label="Sports Cars">Sports</a></li>
-    <li><a href="/suv" aria-label="SUVs">SUV</a></li>
-    <li><a href="/trucks" aria-label="Trucks">Trucks</a></li>
-    <li><a href="/used" aria-label="Used Cars">Used</a></li>
+<ul id="navigation">
+    <li><a href="../accounts/index.php">Home</a></li>
+    <li><a href="">Classic</a></li>
+    <li><a href="">Sports</a></li>
+    <li><a href="">SUV</a></li>
+    <li><a href="">Trucks</a></li>
+    <li><a href="">Used</a></li>
 </ul>
 
 

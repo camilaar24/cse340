@@ -8,10 +8,16 @@
     <link rel="stylesheet" type="text/css" href= "/phpmotors/css/style.css" />
     <title>Account Login | PHP Motors </title>
     </head>
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
     <body>
         <div id="body">
+            <header>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/header.php'; ?>
+</header>
+            
+            <main>
+            <nav>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
+</nav>
                 <h1>Login</h1>
                 <?php 
                     if (isset($message)) {

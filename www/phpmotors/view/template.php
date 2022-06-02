@@ -15,10 +15,9 @@
           </header>
             
             <main>
-                <nav>
-                    <!-- <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?> -->
-                    <?php echo $navList;?>
-                </nav>
+            <nav>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/navigation.php'; ?>
+</nav>
                 <h1>Content Title Here</h1>
             
             </main>
