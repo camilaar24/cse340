@@ -4,8 +4,7 @@
     require_once '../model/main-model.php';
     require_once '../model/vehicles-model.php';
 
-    $
-    fications = getClassifications();
+    $classifications = getClassifications();
 
 
     $navList = "<ul id='navigation'>";
