@@ -28,28 +28,28 @@
             $clientPassword = filter_input(INPUT_POST, 'clientPassword');
             if(empty($clientFirstname) || empty($clientLastname) || empty($clientEmail) || empty($clientPassword)) {
                 $message = '<p>Please provide information for all empty form fields.</p>';
-                include '../view/registration.php';
+                include 'view/registration.php';
                 exit;
             }
             $regOutcome = regClient($clientFirstname, $clientLastname, $clientEmail, $clientPassword);
             if($regOutcome === 1){
                 $message = "<p>Thanks for registering $clientFirstname. Please use your email and password to login.</p>";
-                include '../view/login.php';
+                include 'view/login.php';
                 exit;
             } else {
                 $message = "<p>Sorry $clientFirstname, but the registration failed. Please try again.</p>";
-                include '../view/registration.php';
+                include 'view/registration.php';
                 exit;
             }
             break;
         case 'login':
-            include "../view/login.php";
+            include "view/login.php";
         break;
         case 'register-page':
-            include "../view/registration.php";
+            include "view/registration.php";
             break;  
         default:
-            include '../view/home.php';
+            include 'view/home.php';
             break;
     }
 
